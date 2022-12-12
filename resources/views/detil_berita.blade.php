@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8 mb-3">
             <div class="card">
-                <img src="/img/{{ $db->foto }}" class="card-img-top" alt="...">
+                <img src="{{ asset('storage/' . $db->foto) }}" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 style="color: rgb(32,150,110)">{{$db->judul_berita}}</a></h5>
                   <p class="card-text"><small class="text-muted">Kategori->{{$db->kategori->nama}}</small></p>

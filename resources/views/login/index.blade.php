@@ -39,7 +39,7 @@
         <button class="d-blok text-center mt-3 mb4">Belum Registrasi?<a href="/register">
           Registrasi Sekarang!</a></small>
         </main>
-        
+  </div>  
   </div>
 </div>
 @endsection
